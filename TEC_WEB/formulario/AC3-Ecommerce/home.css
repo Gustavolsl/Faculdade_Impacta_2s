@@ -1,0 +1,122 @@
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+main{
+    width: 100%;
+    height: auto;
+}
+
+header{
+    width: 100%;
+    height: 75px;
+}
+
+#logo{
+    width: 200px;
+    height: 50px;
+    background-color: aquamarine;
+    float: left;
+    margin-top: 12px;
+    margin-left: 50px;
+    background-image: url(../imagens/logo.png);
+    
+    
+}
+
+#logo h3{
+    text-align: center;
+    line-height: 50px;
+}
+
+#search{
+    width: 50%;
+    height: 50px;
+    float: left;
+    margin-top: 12px;
+    margin-left: 10%;
+}
+
+#txtSearch{
+    width: 95%;
+    height: 28px;
+    float: left;
+    margin-left: 2.5%;
+    margin-top: 10px;
+}
+
+#logo-cart{
+    width: 35px;
+    height: 35px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+    background-repeat: no-repeat;
+    background-image: url(../imagens/cart.png);
+}
+
+#banner{
+    width: 100%;
+    height: 590px;
+    background-color: blueviolet;
+    background-image: url(../imagens/mate3.jpg);
+    background-repeat: no-repeat;
+    background-size: 1300px;
+}
+
+#produtos{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.produto{
+    width: 200px;
+    height: auto;
+    min-height: 250px;
+    border: solid 1px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 25px;
+    
+
+
+}
+
+.produto-imagem{
+    width: 85%;
+    height: 150px;
+    margin: 15px;
+    background-image: url(../imagens/cel1.jpg);
+    background-size: 170px;
+    background-repeat: no-repeat;
+}
+
+.titulo-produto{
+    width: 100%;
+    height: 10px;
+}
+
+.preco{
+    width: 100%;
+    height: 10px;
+}
+
+footer{
+    width: 100%;
+    height: 60px;
+}
+
+#form-cadastro{
+    width: 90%;
+    height: 60px;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
